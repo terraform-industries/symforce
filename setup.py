@@ -388,7 +388,7 @@ if __name__ == "__main__":
                 "numpy<2.0",
                 "scipy",
                 f"skymarshal @ file://localhost/{ESCAPED_SOURCE_DIR}/third_party/skymarshal",
-                "sympy~=1.11.1",
+                "sympy>=1.11.1",
                 f"symforce-sym @ file://localhost/{ESCAPED_SOURCE_DIR}/gen/python",
                 "typing-extensions; python_version<'3.9'",
             ]
